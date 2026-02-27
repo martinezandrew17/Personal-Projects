@@ -1,4 +1,4 @@
-<h1>Hi, I'm Andrew! <br/><a href="https://github.com/martinezandrew17">Junior Software Developer</a>, <a href="https://www.linkedin.com/in/martinezandrew17/">Cybersecurity Intern</a>
+<h1>Hi, I'm Andrew! <br/><a href="https://github.com/martinezandrew17">Junior Software Developer</a>, <a href="https://www.linkedin.com/in/martinezandrew17/"
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
