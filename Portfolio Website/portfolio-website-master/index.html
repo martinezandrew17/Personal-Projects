@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Andrew Martinez</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/martinezandrew17" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/martinezandrew17/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:martinezandrew2023@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Andrew 👋</h2>
+        <p>I'm a third-year Computer Science student at California State University, Fullerton, with hands-on experience in C++, Python, HTML, and CSS. I have a strong interest in both software development and web technologies, and I'm currently seeking an internship as a Junior Software Developer to apply my skills in real-world projects and continue learning from industry professionals. I’m passionate about solving problems through code, building clean and user-friendly applications, and collaborating in team environments. Whether it's backend logic or front-end design, I enjoy bridging the gap between functionality and user experience. Always open to connecting with fellow students, developers, and industry mentors!</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/IMG_7595.webp" alt="Andrew Martinez headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Throughout the course of my college undergrad, I have developed a strong foundating in various programming languages and technologies. Below, you can find a list of some of my profeccient skills:
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/IMG_7603.webp">
+          <p>Andrew Martinez</p>
+          <p>Junior Software Developer</p>
+        </div>
+
+        <div class="text">
+          At 19, I'm working hard to break into web development with a strong foundation in Python and C++. While I'm still early in my journey, I've built small projects that showcase my problem-solving skills and passion for clean, efficient code. My background in Python has given me experience with scripting and automation, and C++ has helped me develop a deeper understanding of logic and structure—skills I'm now applying to full-stack web development. I'm currently looking for internships or junior developer roles where I can gain real-world experience, contribute to a team, and continue learning in a fast-paced, collaborative environment.
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          I'm always open to new opportunities, whether that means joining a development team, collaborating on a project, or simply connecting with others in tech. As I continue to build my skills and gain experience, I'm especially interested in hearing about internships, junior developer roles, or any advice from those already working in the industry. My GitHub, LinkedIn, and email are all listed below—feel free to reach out if you'd like to connect, share ideas, or just talk about code. I'm excited to see where this journey takes me and always appreciate a chance to learn from others.
+        </div>
+
+        <form action="https://formspree.io/f/xjkrbzrr" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

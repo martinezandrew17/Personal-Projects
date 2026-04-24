@@ -1,0 +1,14 @@
+requirements = '''
+pandas
+numpy
+scikit-learn
+xgboost
+streamlit
+requests
+beautifulsoup4
+lxml
+matplotlib
+seaborn
+plotly
+python-dotenv
+'''
